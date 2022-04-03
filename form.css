@@ -1,0 +1,58 @@
+p{
+    color: darkorange;
+}
+h2{
+    color: blueviolet;
+    text-align: center;
+}
+fieldset{
+    color: brown;
+    list-style: lower-greek;
+    text-align: center;
+}
+li
+{
+    color: bisque;
+    font: medium;
+ list-style: outside;
+}
+.special{
+    color: aqua;
+    font-weight: bolder;
+}
+h2+p
+{
+color: darkorchid;
+
+}
+.tushar
+{
+    color: darkgreen;
+    background-color: rgb(226, 226, 43);
+    text-align: center;
+}
+.contact
+{
+    text-align: center;
+ 
+
+}
+*{
+    box-sizing: border-box;
+}
+.credit
+{
+    color: darkolivegreen;
+    font-size: larger;
+
+}
+.visa
+{
+color: darkgoldenrod;
+font-size: larger;
+}
+.debit
+{
+    color: darkseagreen;
+    font-size: larger;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=f1.0">
+    <title>Gateway form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="mailto:pundirgaurav14@gmail.com" method="post" enctype="text/plain">
+ 
+        <h1 class="tushar">PAYMENT FORM </h1>
+        <h2 class="contact">Contanct Information</h2>
+        <p>Name : <input type="text" name="name" required   ></p>
+        <p>
+            <fieldset>
+                <legend>GENDER</legend > 
+            Male <input type="radio" name="gender" id="1">  
+            Female <input type="radio" name="gender" id="2">  
+            </fieldset>  
+                                                      
+        </p>
+        <p>
+            Address : <textarea name="address  " id="address" cols="30" rows="1"></textarea>
+        </p>
+        <p>
+            Email : <input type="email" name="email" id="email1">
+        </p>
+        <p> pincode : <input type="text" name="pincode " id="pin1">
+            </p>
+            <h2> Payment Information </h2>
+            <p>Card Time : 
+                <select name="card_type" id="card_type">
+                    <option value="" class="special">  Select Card  </option>
+                    <option value="" class="visa"> Visa  </option>
+                    <option value="" class="debit">  Debit </option>
+                    <option value="" class="credit">  Credit </option>
+                </select>
+            </p>
+            <p>
+                Date : <input type="date" name="date" id="date1">
+            </p>
+            <p>
+                Password : <input type="password" name="" id="">
+            </p>
+            <input type="submit" value="Paynow ">
+
+    </form>
+</body>
+</html>
